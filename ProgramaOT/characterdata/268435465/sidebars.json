@@ -52,11 +52,11 @@
     },
     "containersOptions": {
         "0": {
-            "contentHeight": 71,
+            "contentHeight": 121,
             "contentMaximized": true
         },
-        "2": {
-            "contentHeight": 121,
+        "1": {
+            "contentHeight": 293,
             "contentMaximized": true
         }
     },
@@ -74,7 +74,7 @@
         "contentMaximized": true
     },
     "imbuementTrackerWidgetOptions": {
-        "contentHeight": 200,
+        "contentHeight": 0,
         "contentMaximized": true,
         "showAlmostGone": true,
         "showAlmostNew": true,
@@ -96,7 +96,7 @@
     "npcTradeOptions": {
         "allowLargeTradesWithoutWarning": false,
         "allowSellingEquippedItems": false,
-        "contentHeight": 563,
+        "contentHeight": 0,
         "contentMaximized": true,
         "ignoreCapacityWhenBuying": false,
         "purchaseShoppingBagWhenBuying": false,
@@ -111,17 +111,17 @@
     "playerGuideWidgetOptions": {
         "confirmedLevelSpecialPopups": [
         ],
-        "contentHeight": 200,
+        "contentHeight": 0,
         "contentMaximized": true,
         "pendingLevelSpecialPopups": [
         ]
     },
     "preyWidgetOptions": {
-        "contentHeight": 59,
+        "contentHeight": 0,
         "contentMaximized": true
     },
     "questTrackerWidgetOptions": {
-        "contentHeight": 38,
+        "contentHeight": 0,
         "contentMaximized": true
     },
     "sidebarPanelsMangerOptions": {
@@ -133,10 +133,10 @@
         ]
     },
     "sidebarPanelsOptions": {
-        "chaseModeEnabled": false,
+        "chaseModeEnabled": true,
         "combatMode": 2,
         "controlButtonsVisible": true,
-        "minimapZoomLevel": 100,
+        "minimapZoomLevel": 0,
         "minimizeInventory": false
     },
     "sidebarWidgetsMangerOptions": {
@@ -150,23 +150,26 @@
                 {
                     "instance": 0,
                     "type": "container"
-                }
-            ],
-            [
+                },
                 {
-                    "type": "spellList"
-                }
-            ],
-            [
-                {
-                    "instance": 2,
+                    "instance": 1,
                     "type": "container"
                 }
+            ],
+            [
+                {
+                    "type": "playerGuide"
+                },
+                {
+                    "type": "questTracker"
+                }
+            ],
+            [
             ]
         ]
     },
     "skillsWidgetOptions": {
-        "contentHeight": 200,
+        "contentHeight": 0,
         "contentMaximized": true,
         "defenceStatsVisible": true,
         "invisibleProgressBars": [
@@ -175,7 +178,7 @@
         "offenceStatsVisible": true
     },
     "spellListWidgetOptions": {
-        "contentHeight": 897,
+        "contentHeight": 0,
         "contentMaximized": true,
         "showAttackSpellGroup": true,
         "showDruidSpells": true,
@@ -186,7 +189,7 @@
         "showOnlyCurrentLevel": false,
         "showOnlyCurrentVocation": false,
         "showPaladinSpells": true,
-        "showPremiumOnlySpells": false,
+        "showPremiumOnlySpells": true,
         "showSorcererSpells": true,
         "showSupportSpellGroup": true,
         "showUnkownSpells": false
@@ -200,7 +203,7 @@
         "contentMaximized": true
     },
     "vipWidgetOptions": {
-        "contentHeight": 200,
+        "contentHeight": 0,
         "contentMaximized": true,
         "hideOfflineVips": false,
         "showGrouped": false,

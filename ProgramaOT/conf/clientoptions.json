@@ -13,7 +13,7 @@
         "clientWindowIsMaximized": true,
         "clientWindowPositionX": 450,
         "clientWindowPositionY": 195,
-        "clientWindowScreenName": "HDMI",
+        "clientWindowScreenName": "HORIZON Z21",
         "clientWindowWidth": 1020
     },
     "controlButtonsOptions": {
@@ -76,9 +76,9 @@
                         },
                         {
                             "actionBar": 1,
-                            "actionButton": 25,
+                            "actionButton": 9,
                             "actionsetting": {
-                                "chatText": "exevo vis lux",
+                                "chatText": "/m rotworm,8",
                                 "sendAutomatically": true
                             }
                         },
@@ -88,6 +88,14 @@
                             "actionsetting": {
                                 "useObject": 268,
                                 "useType": "UseOnYourself"
+                            }
+                        },
+                        {
+                            "actionBar": 1,
+                            "actionButton": 10,
+                            "actionsetting": {
+                                "useObject": 3003,
+                                "useType": "SelectUseTarget"
                             }
                         },
                         {
@@ -116,50 +124,20 @@
                         },
                         {
                             "actionBar": 1,
-                            "actionButton": 24,
+                            "actionButton": 13,
                             "actionsetting": {
-                                "chatText": "exori flam",
-                                "sendAutomatically": true
-                            }
-                        },
-                        {
-                            "actionBar": 1,
-                            "actionButton": 6,
-                            "actionsetting": {
-                                "chatText": "exori mas",
-                                "sendAutomatically": true
+                                "upgradeTier": 0,
+                                "useEquipSmartMode": false,
+                                "useObject": 7451,
+                                "useType": "Equip"
                             }
                         },
                         {
                             "actionBar": 1,
                             "actionButton": 7,
                             "actionsetting": {
-                                "useObject": 3003,
-                                "useType": "SelectUseTarget"
-                            }
-                        },
-                        {
-                            "actionBar": 1,
-                            "actionButton": 23,
-                            "actionsetting": {
-                                "chatText": "exevo flam hur",
+                                "chatText": "exori mas",
                                 "sendAutomatically": true
-                            }
-                        },
-                        {
-                            "actionBar": 1,
-                            "actionButton": 15,
-                            "actionsetting": {
-                                "chatText": "exani tera",
-                                "sendAutomatically": true
-                            }
-                        },
-                        {
-                            "actionBar": 1,
-                            "actionButton": 18,
-                            "actionsetting": {
-                                "useObject": 268,
-                                "useType": "UseOnYourself"
                             }
                         }
                     ]
@@ -887,7 +865,7 @@
         "showStaticHotkeysFirst": true
     },
     "news": {
-        "maxunlocklevel": 85
+        "maxunlocklevel": 0
     },
     "options": {
         "ChatEnabled": true,
@@ -947,7 +925,7 @@
         "containerSortBackpacksFirst": false,
         "containerSortRecursive": false,
         "containerSortRecursiveShowWarningAgain": true,
-        "controlSchemeIndex": 2,
+        "controlSchemeIndex": 0,
         "cooldownBarEnabled": true,
         "creatueShowNpcIcon": true,
         "creatureHudEnabled": true,
@@ -958,7 +936,7 @@
         "emergencyDialogVersion": 0,
         "frameRateLimit": 60,
         "frameRateLimitEnabled": false,
-        "gameWindowLowerPaneHeight": 249,
+        "gameWindowLowerPaneHeight": -45,
         "gameWindowResizingMode": 0,
         "gameWindowScaleOnlyByEvenMultiples": false,
         "gameWindowShowBoostedCreatureMessages": true,
@@ -975,16 +953,16 @@
         "gameWindowShowTargetHighlight": true,
         "gameWindowShowTextualEffects": true,
         "gameWindowShowTragetFrame": true,
-        "gameWindowUpperPaneHeight": 714,
+        "gameWindowUpperPaneHeight": 764,
         "inspectPlayerAllowAllEnabled": false,
         "keyboardDelayMs": 250,
         "keyboardDelayUseDefault": true,
-        "lightAmbientLevel": 0.5,
+        "lightAmbientLevel": 0.25,
         "lightAttenuationCloudsIndoor": 0.75,
-        "lightEffectsEnabled": true,
+        "lightEffectsEnabled": false,
         "lightLevelSeparatorLevel": 0.800000011920929,
         "linkCopyWarningEnabled": true,
-        "loginEmailAddress": "rafinhaa.pokemon@gmail.com",
+        "loginEmailAddress": "test3@gmail.com",
         "lootSchemeIndex": 0,
         "marketShowLockerOnly": false,
         "mouseAnimatedCursor": false,
@@ -1040,7 +1018,7 @@
         "showExpireWhenUnused": true,
         "showFpsLagIndicator": true,
         "soundAmbienceVolume": 100,
-        "soundAnthemEnabled": false,
+        "soundAnthemEnabled": true,
         "soundBattleCreaturesAttacksEnabled": true,
         "soundBattleCreaturesDeathEnabled": true,
         "soundBattleCreaturesNoisesEnabled": true,
@@ -1060,7 +1038,7 @@
         "soundEatingEnabled": true,
         "soundEventsVolume": 100,
         "soundItemsVolume": 100,
-        "soundMasterVolume": 100,
+        "soundMasterVolume": 0,
         "soundMasterVolumeOld": 100,
         "soundMoveItemEnabled": true,
         "soundMusicVolume": 50,

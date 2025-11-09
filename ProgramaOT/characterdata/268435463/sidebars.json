@@ -52,7 +52,11 @@
     },
     "containersOptions": {
         "0": {
-            "contentHeight": 47,
+            "contentHeight": 195,
+            "contentMaximized": true
+        },
+        "1": {
+            "contentHeight": 195,
             "contentMaximized": true
         }
     },
@@ -125,7 +129,7 @@
         ]
     },
     "sidebarPanelsOptions": {
-        "chaseModeEnabled": false,
+        "chaseModeEnabled": true,
         "combatMode": 2,
         "controlButtonsVisible": true,
         "minimapZoomLevel": 0,
@@ -144,7 +148,8 @@
                     "type": "container"
                 },
                 {
-                    "type": "skills"
+                    "instance": 1,
+                    "type": "container"
                 }
             ],
             [
@@ -155,7 +160,7 @@
         ]
     },
     "skillsWidgetOptions": {
-        "contentHeight": 200,
+        "contentHeight": 0,
         "contentMaximized": true,
         "defenceStatsVisible": true,
         "invisibleProgressBars": [

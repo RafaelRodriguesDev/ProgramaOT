@@ -59,3 +59,5 @@ Consulte a pasta `3rdpartylicences/` para informações sobre as licenças de co
 Se precisar, ajuste os padrões de LFS no arquivo `.gitattributes` antes de subir para o GitHub, conforme o tamanho e a natureza dos arquivos adicionais que você pretende incluir.
 
 Trigger workflow test at 2025-11-09 18:14:48
+
+Trigger workflow test

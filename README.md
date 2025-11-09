@@ -61,3 +61,6 @@ Se precisar, ajuste os padrões de LFS no arquivo `.gitattributes` antes de subi
 Trigger workflow test at 2025-11-09 18:14:48
 
 Trigger workflow test
+
+
+Veja também: README-WORKFLOW.md (guia do workflow de release).

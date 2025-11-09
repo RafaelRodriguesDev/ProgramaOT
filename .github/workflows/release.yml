@@ -23,31 +23,22 @@ jobs:
           if (Test-Path client-to-update.zip) { Remove-Item client-to-update.zip -Force }
           Compress-Archive -Path ProgramaOT\* -DestinationPath client-to-update.zip -Force
 
-      - name: Delete existing asset named client-to-update.zip (if any)
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const owner = context.repo.owner;
-            const repo = context.repo.repo;
-            const tag = 'v1.0.0';
-            try {
-              const release = await github.rest.repos.getReleaseByTag({ owner, repo, tag });
-              for (const asset of release.data.assets) {
-                if (asset.name === 'client-to-update.zip') {
-                  await github.rest.repos.deleteReleaseAsset({ owner, repo, asset_id: asset.id });
-                  core.info(`Deleted asset ${asset.name}`);
-                }
-              }
-            } catch (e) {
-              core.info(`Release ${tag} not found, will create it.`);
-            }
+      - name: Compute unique release tag
+        id: ver
+        shell: pwsh
+        run: |
+          $timestamp = Get-Date -Format "yyyy.MM.dd-HH.mm.ss"
+          $tag = "v$timestamp"
+          Write-Host "Computed tag: $tag"
+          echo "tag=$tag" >> $env:GITHUB_OUTPUT
+          echo "name=Client $tag" >> $env:GITHUB_OUTPUT
 
-      - name: Create/Update Release v1.0.0 and upload asset
+      - name: Create new Release and upload asset
         uses: softprops/action-gh-release@v2
         with:
           files: client-to-update.zip
-          name: Client v1.0.0
-          tag_name: v1.0.0
+          name: ${{ steps.ver.outputs.name }}
+          tag_name: ${{ steps.ver.outputs.tag }}
           draft: false
           prerelease: false
           make_latest: true

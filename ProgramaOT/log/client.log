@@ -3291,3 +3291,18 @@ You must not let any exception whatsoever propagate through Qt code.
 [ 2025-10-15 15:09:04,375 ] Retrying to obtain clipboard.
 [ 2025-10-15 15:12:00,268 ] Connection to gameserver  "tcp://127.0.0.1:7172" "Crystal"  was disconnected ( "The remote host closed the connection" )
 [ 2025-10-15 15:12:00,331 ] Disconnected from gameserver
+[ 2025-11-09 18:46:00,770 ] Using spritesheet cache size of 910
+[ 2025-11-09 18:46:04,937 ] Asset loading complete
+[ 2025-11-09 18:46:08,408 ] QObject: Cannot create children for a parent that is in a different thread.
+(Parent is QQmlEngine(0x1b2cf3ff2c0), parent's thread is QThread(0x1b2bd9b8050), current thread is QSGRenderThread(0x1b2cf671ac0)
+[ 2025-11-09 18:47:02,400 ] News query failed: "Unrecognized event news."
+[ 2025-11-09 18:47:04,619 ] BattlEye: "Initialized (v1.249)"
+[ 2025-11-09 18:47:04,619 ] BattlEye: "Restarting client is necessary, service isn't running properly"
+[ 2025-11-09 18:47:04,619 ] BattlEye: "Restarting client is necessary, update required"
+[ 2025-11-09 18:47:04,619 ] BattlEye: "Config entry: GameID tibia"
+[ 2025-11-09 18:47:04,619 ] BattlEye: "Config entry: MasterPort 7171"
+[ 2025-11-09 18:47:04,787 ] Request connection to gameserver  "tcp://72.60.11.224:7172"  (unprotected:  "tcp://72.60.11.224:7172" )  requested (Charakter "Pussuido" )
+[ 2025-11-09 18:47:04,805 ] Request connection to gameserver  "tcp://72.60.11.224:7172" "AvernusOT"
+[ 2025-11-09 18:47:04,828 ] Connected to gameserver  "tcp://72.60.11.224:7172" "AvernusOT"
+[ 2025-11-09 18:47:04,846 ] News query failed: "Unrecognized event news."
+[ 2025-11-09 18:51:15,045 ] Retrying to obtain clipboard.

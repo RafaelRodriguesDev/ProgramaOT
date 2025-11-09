@@ -13,7 +13,7 @@
         "clientWindowIsMaximized": true,
         "clientWindowPositionX": 450,
         "clientWindowPositionY": 195,
-        "clientWindowScreenName": "HORIZON Z21",
+        "clientWindowScreenName": "HDMI",
         "clientWindowWidth": 1020
     },
     "controlButtonsOptions": {
@@ -68,14 +68,6 @@
                     "mappings": [
                         {
                             "actionBar": 1,
-                            "actionButton": 1,
-                            "actionsetting": {
-                                "chatText": "exura ico",
-                                "sendAutomatically": true
-                            }
-                        },
-                        {
-                            "actionBar": 1,
                             "actionButton": 9,
                             "actionsetting": {
                                 "chatText": "/m rotworm,8",
@@ -84,10 +76,10 @@
                         },
                         {
                             "actionBar": 1,
-                            "actionButton": 2,
+                            "actionButton": 1,
                             "actionsetting": {
-                                "useObject": 268,
-                                "useType": "UseOnYourself"
+                                "chatText": "exura ico",
+                                "sendAutomatically": true
                             }
                         },
                         {
@@ -96,6 +88,14 @@
                             "actionsetting": {
                                 "useObject": 3003,
                                 "useType": "SelectUseTarget"
+                            }
+                        },
+                        {
+                            "actionBar": 1,
+                            "actionButton": 2,
+                            "actionsetting": {
+                                "useObject": 268,
+                                "useType": "UseOnYourself"
                             }
                         },
                         {
@@ -116,20 +116,20 @@
                         },
                         {
                             "actionBar": 1,
-                            "actionButton": 5,
-                            "actionsetting": {
-                                "chatText": "exori infir nia",
-                                "sendAutomatically": true
-                            }
-                        },
-                        {
-                            "actionBar": 1,
                             "actionButton": 13,
                             "actionsetting": {
                                 "upgradeTier": 0,
                                 "useEquipSmartMode": false,
                                 "useObject": 7451,
                                 "useType": "Equip"
+                            }
+                        },
+                        {
+                            "actionBar": 1,
+                            "actionButton": 5,
+                            "actionsetting": {
+                                "chatText": "exori infir nia",
+                                "sendAutomatically": true
                             }
                         },
                         {
@@ -936,7 +936,7 @@
         "emergencyDialogVersion": 0,
         "frameRateLimit": 60,
         "frameRateLimitEnabled": false,
-        "gameWindowLowerPaneHeight": -45,
+        "gameWindowLowerPaneHeight": 0,
         "gameWindowResizingMode": 0,
         "gameWindowScaleOnlyByEvenMultiples": false,
         "gameWindowShowBoostedCreatureMessages": true,
@@ -962,7 +962,7 @@
         "lightEffectsEnabled": false,
         "lightLevelSeparatorLevel": 0.800000011920929,
         "linkCopyWarningEnabled": true,
-        "loginEmailAddress": "test3@gmail.com",
+        "loginEmailAddress": "rafinhaa.pokemon@gmail.com",
         "lootSchemeIndex": 0,
         "marketShowLockerOnly": false,
         "mouseAnimatedCursor": false,

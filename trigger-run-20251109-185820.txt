@@ -1,0 +1,1 @@
+﻿Teste para gerar release novamente via workflow - 20251109-185820
